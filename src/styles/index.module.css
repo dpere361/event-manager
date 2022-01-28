@@ -1,0 +1,102 @@
+.collegeBack {
+    position: absolute;
+    height: 1200px;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-size: cover;
+    background-color: #fbfbfb;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 50%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 50%, transparent 100%);
+    filter: blur(2px);
+}
+
+.introHeader {
+    margin-right: 32px;
+}
+  
+/* College background for mobile */
+@media only screen and (max-width: 425px) {
+    .collegeBack {
+        height: 1360px;
+    }
+
+    .introHeader {
+        margin-right: 0px !important;
+    }
+}
+
+.secondaryHeader {
+    color: #6D6D6D;
+    font-weight: 300;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.bigText {
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.arrow {
+    color: #2041d2;
+    font-size: 28px;
+    margin-left: 3px;
+    transform: rotate(-90deg);
+    margin-bottom: 2px;
+}
+
+.graphicLabel {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 16px;
+    color: #5f5f5f;
+}
+
+.link {
+	background-color: none;
+	color: #707070;
+    border: none;
+    text-decoration: underline;
+}
+
+.link:hover {
+	border: none;
+	background-color: transparent;
+	color: rgb(36, 36, 36);
+}
+
+.link:focus, .link:active {
+	border-style: none !important;
+	outline: none !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .secondaryHeader {
+        font-size: 32px;
+    }
+
+    .bigText {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .graphicLabel {
+        margin-top: 36px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .secondaryHeader {
+        font-size: 28px;
+    }
+
+    .bigText {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

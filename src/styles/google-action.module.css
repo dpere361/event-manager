@@ -1,0 +1,20 @@
+.beckLogo {
+    height: 300px;
+    width: 300px;
+}
+
+.message {
+    font-size: 24px;
+}
+
+/* College background for mobile */
+@media only screen and (max-width: 450px) {
+    .beckLogo {
+        height: 200px;
+        width: 200px;
+    }
+
+    .message {
+        font-size: 16px;
+    }
+}

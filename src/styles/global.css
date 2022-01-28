@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: var(--bcp-page-color); */
+    background-color: #ffffff;
+    position: relative;
+    z-index: 0;
+    font-size: 100%;
+    overflow-x: hidden
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+:root {
+    /* These are the theme color RGB values */
+    --bcp-orange-color: 221, 112, 29;
+    --bcp-light-orange-color: 221, 137, 72;
+    --bcp-dark-gray-color: 76, 77, 79;
+    --bcp-med-dark-gray-color: 87, 88, 91;
+    --bcp-med-light-gray-color: 146, 148, 151;
+    --bcp-light-gray-color: 235, 235, 235;
+    --bcp-gray-blue-color: 121, 146, 158;
+    --bcp-light-gray-blue-color: 164, 195, 210;
+    --bcp-red-color: 210, 31, 39;
+    --bcp-blue-color: 71, 128, 214;
+    --bcp-light-blue-color: 94, 203, 250;
+
+    /* These are Theme Colors */
+    --bcp-orange: rgb(221, 112, 29);
+    --bcp-light-orange: rgb(221, 137, 72);
+    --bcp-dark-gray: rgb(76, 77, 79);
+    --bcp-med-dark-gray: rgb(87, 88, 91);
+    --bcp-med-light-gray: rgb(146, 148, 151);
+    --bcp-light-gray: rgb(235, 235, 235);
+    --bcp-gray-blue: rgb(121, 146, 158);
+    --bcp-light-gray-blue: rgb(164, 195, 210);
+    --bcp-red: rgb(210, 31, 39);
+    --bcp-blue: rgb(71, 128, 214);
+    --bcp-light-blue: rgb(94, 203, 250);
+
+    --bcp-page-color:#fbfbfb;
+
+    /* Hover styles */
+    --bcp-orange-hover: #cc681c;
+
+    /* Borders */
+    --bcp-box-radius: 3px;
+
+    /* Alignment */
+    --bcp-document-padding-horizontal: 20%;
+    
+    --bcp-document-padding-vertical: 4rem;
+}
+
+#gatsby-focus-wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.bcp.page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    font-size: 1rem;
+    flex: 1;
+}
+
+section {
+    margin: 8rem 0rem;
+}
+
+section p {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: #707070;
+    font-size: 48px;
+}
+
+h3,h4,h5,h6 {
+    margin-bottom: 1rem;
+    font-weight: 300;
+    color: #2041d2;
+}
+
+.card-title {
+    font-weight: 300;
+    color: #2041d2;
+}
+
+p {
+    font-weight: 300;
+    color: #888888;
+}
+
+.card-text {
+    font-weight: 300;
+    color: #888888;
+}
+
+/* Any anchor id's that are linked to account for the offset of the fixed navbar */
+.sectionTop:before { 
+    content: ''; 
+    display: block;
+    position: relative;
+    width: 0;
+    height: 100px;
+    margin-top: -100px;
+}
+
+.custom-error-tooltip + input, .custom-error-tooltip + select {
+    border-color: indianred;
+}
+
+
+/* For 4k screens */
+@media only screen and (min-width: 1500px) {
+    .bcp.page {
+        max-width: 1156px;
+    }
+}
+
+/* For mobile */
+@media only screen and (max-width: 991px) {
+    .bcp.page {
+        width: 90%;
+    }
+
+    h1, h2 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+/* For mobile */
+@media only screen and (max-width: 426px) {
+    h1, h2 {
+        font-size: 30px;
+    }
+}
+
+/* Tooltips */
+.bcp-tooltip > .tooltip-inner {
+    max-width: 300px;
+    background-color: white;
+    color: rgb(58, 58, 58);
+    box-shadow: 0px 2px 6px rgba(0,0,0,.2);
+    border-radius: 3px;
+    padding: 8px 16px;
+}
+
+.bcp-tooltip > .bs-tooltip-auto[x-placement^="left"] span.arrow::before, .bs-tooltip-left .arrow::before { 
+    border-left-color: white;
+}
+
+.bcp-tooltip > .bs-tooltip-auto[x-placement^="right"] span.arrow::before, .bs-tooltip-right .arrow::before { 
+    border-right-color: white;
+}
+
+.bcp-tooltip > .bs-tooltip-auto[x-placement^="top"] span.arrow::before, .bs-tooltip-top .arrow::before { 
+    border-top-color: white;
+}
+
+.tooltip.show {
+    opacity: 1;
+}

@@ -1,0 +1,17 @@
+/* an extra, more specific css sheet because bootstrap has trouble with modules */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #656565;
+    background-color: #FBEFE5;
+}
+
+.nav-link {
+    color: #2041d2;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    color: #1e1474;
+    text-decoration: none;
+    background-color: transparent;
+}

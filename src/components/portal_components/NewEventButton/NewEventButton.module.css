@@ -1,0 +1,46 @@
+.newButton {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: #2041d2;
+    color: #2041d2;
+    border: none;
+    background: none;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+.newButton:hover, .newButton:active {
+    background-color: #2041d2 !important;
+    border-color: #2041d2;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.newButton:focus{
+    box-shadow: 0 0 0 0.2rem #7c8dd8 !important;
+    border-color:#2041d2;
+    background-color: #2041d2;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.dayPicker {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    height: 38px;
+    width: 100px;
+    border-color: lightgrey;
+    margin-right: 5px;
+}
+
+.error {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    font-size: 20px;
+    color: #2041d2;
+}

@@ -1,0 +1,16 @@
+.buttonOptionsContainer {
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    display: flex;
+    align-items: center;
+}
+.buttonOptionsContainer > div:nth-child(n){
+    border-right: 1px solid #dddddd;
+    padding: 8px;
+}
+.buttonOptionsContainer > div:nth-last-child(1) {
+    border-right: none;
+}
+.buttonOptionsContainer > div:nth-child(n):hover{
+    background-color: #f0f0f0;
+}

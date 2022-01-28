@@ -1,0 +1,22 @@
+.downloadBtn {
+    padding: 4px 4px;
+    font-size: 18px;
+    background-color: #3518AA;
+    border-color: #3518AA;
+    border-radius: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.downloadBtn:hover {
+    background-color: #160947;
+    border-color: #160947;
+    
+}
+
+.downloadBtn:active, .downloadBtn:focus {
+    box-shadow: none;
+    background-color: #160947;
+    border-color: #160947;
+
+}

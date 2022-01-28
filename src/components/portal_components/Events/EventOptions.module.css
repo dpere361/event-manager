@@ -1,0 +1,17 @@
+.dayPicker {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: thin;
+    height: 38px;
+    width: 100px;
+    border-color: lightgrey;
+    margin-right: 5px;
+}
+
+.error {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    font-size: 20px;
+    color: #2041d2;
+}

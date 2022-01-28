@@ -1,0 +1,38 @@
+.selectedDiagInput {
+    padding: 0px 100px;
+    color: black;
+}
+
+.cancel {
+    background: none;
+    color: grey;
+    box-shadow: inset 0px 0px 0px 1px grey;
+}
+
+.subButton {
+    background-color: #2041d2 ;
+    border: none;
+}
+
+.subButton:hover, .subButton:active {
+    background-color: #aa2e2a ;
+    border: none;
+}
+
+.subButton:disabled {
+    background-color: #2041d2 ;
+    border: none;
+}
+
+.subButton:focus {
+    box-shadow: 0 0 0 0.2rem #fdb071 !important;
+    background-color: #a72c27 !important;
+}
+
+.error {
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    font-size: 20px;
+    color: #2041d2;
+}
